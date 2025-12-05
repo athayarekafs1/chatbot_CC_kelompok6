@@ -7,7 +7,7 @@ const app = express();
 const port = 3000;
 
 // Ganti dengan Project ID Dialogflow Anda
-const PROJECT_ID = 'chatbot-simple-480114'; 
+const PROJECT_ID = 'simplebot-dvlp'; 
 // Path ke file kunci JSON yang Anda unduh dari GCP
 // Catatan: Dalam deployment nyata, gunakan Variabel Lingkungan (Environment Variables) 
 // untuk menyimpan kredensial.
@@ -77,3 +77,4 @@ app.listen(port, () => {
 
 // Catatan: Untuk deployment di Vercel sebagai Serverless Function, 
 // Anda perlu mengadaptasi kode ini menggunakan Vercel Functions.
+
