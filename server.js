@@ -11,7 +11,7 @@ const PROJECT_ID = 'chatbot-simple-480114';
 // Path ke file kunci JSON yang Anda unduh dari GCP
 // Catatan: Dalam deployment nyata, gunakan Variabel Lingkungan (Environment Variables) 
 // untuk menyimpan kredensial.
-const KEYFILE_PATH = './path/to/your/service-account-file.json'; 
+const KEYFILE_PATH = 'C:\Users\levnovo\Downloads\chatbot-simple-480114-978d9dd0c443.json'; 
 
 // Inisialisasi klien Dialogflow (Gunakan kredensial yang dimuat dari file kunci)
 const sessionClient = new dialogflow.SessionsClient({ keyFilename: KEYFILE_PATH });
